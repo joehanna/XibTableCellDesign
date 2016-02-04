@@ -109,9 +109,18 @@
     </Compile>
     <Compile Include="MyTableViewSource.cs" />
     <Compile Include="ConferenceRepository.cs" />
+    <Compile Include="AccountReceivableCell.cs" />
+    <Compile Include="AccountReceivableCell.designer.cs">
+      <DependentUpon>AccountReceivableCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccountsReceivable.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="MyCustomCell.xib" />
+    <InterfaceDefinition Include="AccountReceivableCell.xib" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="acr_master_cw99.db" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
