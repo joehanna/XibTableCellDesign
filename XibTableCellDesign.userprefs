@@ -1,13 +1,13 @@
-﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhoneRetina4.7.1" />
+﻿<Properties StartupItem="XibTableCellDesign/XibTableCellDesign.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6s.9.2" />
   <MonoDevelop.Ide.Workbench ActiveDocument="XibTableCellDesign/MyTableViewController.cs">
     <Files>
       <File FileName="XibTableCellDesign/AppDelegate.cs" Line="1" Column="1" />
-      <File FileName="XibTableCellDesign/MyTableViewController.cs" Line="3" Column="3" />
+      <File FileName="XibTableCellDesign/MyTableViewController.cs" Line="3" Column="1" />
       <File FileName="XibTableCellDesign/MyCustomCell.cs" Line="1" Column="1" />
       <File FileName="XibTableCellDesign/MyCustomCell.designer.cs" Line="1" Column="1" />
       <File FileName="XibTableCellDesign/Conference.cs" Line="1" Column="1" />
-      <File FileName="XibTableCellDesign/MyTableViewSource.cs" Line="33" Column="33" />
+      <File FileName="XibTableCellDesign/MyTableViewSource.cs" Line="1" Column="1" />
       <File FileName="XibTableCellDesign/ConferenceRepository.cs" Line="1" Column="1" />
       <File FileName="XibTableCellDesign/Main.cs" Line="1" Column="1" />
     </Files>

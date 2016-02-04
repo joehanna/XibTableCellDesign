@@ -4,39 +4,42 @@
 // actions made in the UI designer. If it is removed, they will be lost.
 // Manual changes to this file may not be handled correctly.
 //
-using MonoTouch.Foundation;
+using Foundation;
 using System.CodeDom.Compiler;
 
 namespace XibTableCellDesign
 {
-	[Register ("MyCustomCell")]
-	partial class MyCustomCell
-	{
-		[Outlet]
-		MonoTouch.UIKit.UILabel ConferenceDescription { get; set; }
+  [Register("MyCustomCell")]
+  partial class MyCustomCell
+  {
+    [Outlet]
+    UIKit.UILabel ConferenceDescription { get; set; }
 
-		[Outlet]
-		MonoTouch.UIKit.UILabel ConferenceName { get; set; }
+    [Outlet]
+    UIKit.UILabel ConferenceName { get; set; }
 
-		[Outlet]
-		MonoTouch.UIKit.UILabel ConferenceStart { get; set; }
-		
-		void ReleaseDesignerOutlets ()
-		{
-			if (ConferenceDescription != null) {
-				ConferenceDescription.Dispose ();
-				ConferenceDescription = null;
-			}
+    [Outlet]
+    UIKit.UILabel ConferenceStart { get; set; }
 
-			if (ConferenceName != null) {
-				ConferenceName.Dispose ();
-				ConferenceName = null;
-			}
+    void ReleaseDesignerOutlets()
+    {
+      if (ConferenceDescription != null)
+      {
+        ConferenceDescription.Dispose();
+        ConferenceDescription = null;
+      }
 
-			if (ConferenceStart != null) {
-				ConferenceStart.Dispose ();
-				ConferenceStart = null;
-			}
-		}
-	}
+      if (ConferenceName != null)
+      {
+        ConferenceName.Dispose();
+        ConferenceName = null;
+      }
+
+      if (ConferenceStart != null)
+      {
+        ConferenceStart.Dispose();
+        ConferenceStart = null;
+      }
+    }
+  }
 }
